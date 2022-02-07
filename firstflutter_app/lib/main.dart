@@ -23,7 +23,8 @@ class MyApp extends StatelessWidget {
           height: 200,
           width: 200,
           alignment: Alignment.topLeft,
-          child:const Text('Berita Terbaru'),
+          child:const Text('Berita Terbaru', style: TextStyle(fontSize: 20)
+          ),
         ),
       ),
     );
